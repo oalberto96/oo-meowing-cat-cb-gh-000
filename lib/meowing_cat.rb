@@ -1,9 +1,12 @@
-## code your solution here. 
+## code your solution here.
 def Cat
   attr_accessor :name
-
+  def initialize(name)
+    @name = name
+  end
+  
   def meow
     puts "meow!"
   end
-  
+
 end
